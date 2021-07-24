@@ -1,0 +1,4 @@
+Adjusted navbar to fit page
+changed navbar color
+link on hover changes color
+added email sub form

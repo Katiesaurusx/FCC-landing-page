@@ -1,0 +1,46 @@
+html {
+    background-color: lightgray;
+}
+p {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 250px;
+    margin-left: 45px;
+}
+
+nav li a{
+    color: black;
+}
+nav li a:hover {
+    color: orange;
+}
+.navbar-style {
+    list-style-type: none;
+
+}
+#header-img {
+    width: 150px;
+}
+
+#form {
+    color: black;
+  
+}
+
+#form-paragraph {
+    align-items: center;
+}
+
+#nav-bar {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    
+}
