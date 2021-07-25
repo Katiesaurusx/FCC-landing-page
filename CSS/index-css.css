@@ -11,7 +11,7 @@ ul {
 
 nav li {
     display: inline;
-    margin-right: 250px;
+    margin-right: 150px;
     margin-left: 45px;
 }
 
@@ -21,6 +21,11 @@ nav li a{
 nav li a:hover {
     color: orange;
 }
+
+.btn {
+    color: blue
+}
+
 .navbar-style {
     list-style-type: none;
 
@@ -44,3 +49,9 @@ nav li a:hover {
     align-items: center;
     
 }
+
+@media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }

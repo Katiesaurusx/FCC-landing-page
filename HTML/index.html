@@ -4,7 +4,7 @@
 <header id="header">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="Chrome">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Landing page</title>
 
     <img
@@ -12,6 +12,7 @@
         src="https://static9.depositphotos.com/1008522/1170/v/950/depositphotos_11707127-stock-illustration-tough-tyrannosaurus-dinosaur-vector-illustration.jpg" 
         alt="Pixel dinosaur">
 
+        <!--Navbar coding-->
   <nav id="nav-bar" >
     <ul>
         <li>
@@ -30,15 +31,36 @@
 </nav>
 </header>
 <body>
-    <form id="form">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
         <p id="form-paragraph"> Subscribe to our mailing list:</p>
-            <input type="text" name="email" />
-            <input type="submit" name="subscribe" value="Subscribe"/>
+            <input 
+                type="email"   
+                id="email" 
+                name="email" 
+                placeholder="Enter your email" 
+                required />
+            <input type="submit" name="subscribe" id="submit" value="Subscribe" class="btn"/>
     </form>
     <h1 id="header-1">Landing page for a game's subscription</h1>
         <p id="description">Description text for landing page</p>
+        <iframe 
+            src="https://www.youtube.com/watch?v=Dhc30WRb0n0&ab_channel=LostArk"
+            id="video"
+            height="315"
+            frameborder="0"
+            allowfullscreen
+            > 
+            <p>Video of EU/NA Lost Ark trailer</p>
+        </iframe>
     <h2 id="header=2"> Some random text here to describe the page</h2>
-    
+
+
+    <p id="home"> random text - home</p>
+    <p id="about"> random text</p>
+    <p id="subscription-types"> random text</p>
+    <p id="character-list"> random text</p>
+
+    <!-- Video coding-->
 
 </body>
 </html>
